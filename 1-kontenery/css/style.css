@@ -1,0 +1,21 @@
+.container{
+    height: 100vh;
+}
+
+.custom-container{
+    background: red;
+}
+
+.custom-container-fluid{
+    background: blue;
+}
+
+.custom-container .custom-column{
+    background: orange;
+}
+
+.custom-container .custom-column:nth-child(2n){
+    background: aqua;
+}
+
+
